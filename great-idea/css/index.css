@@ -65,34 +65,45 @@ h1, h2, h3, h4, h5 {
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 .container{
-	border: 2px double grey;
-	
-}
-hearder{
-	display:flex;
-	text-decoration: none ;
-	color: darkgray;
-	justify-content: space-between;
-	text-decoration: none;
-	justify-content: space-around;
-	/* flex-direction: column; */
-
-}
-
-.logo{ 
-}
-
-
-.maintitle {
-	
-			
-}
-.maintitle h1{
-	color:blue;
-	
+	width: 1005px;
+	border: 2px double red;
+	margin: auto;
 	
 		
 }
+.opening{
+	display:flex;
+ justify-content: space-evenly;
+ padding-bottom: 10px;
+}
+.opening a{
+	color:purple;
+	text-decoration: none;
+}
+.one{
+	display:flex;
+	flex-wrap:wrap;
+	justify-content: space-evenly;
+	align-items: center;
+	/* padding-right: 3em; */
+}
+
+.maintitle h1{
+	color:blue;
+	font-size: 50px;
+	width: 300px;
+    height:200px;
+			
+}
+
+
+
+/* .logo{ 
+} */
+
+
+
+
 h1{
 	
 }
