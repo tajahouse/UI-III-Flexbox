@@ -65,8 +65,8 @@ h1, h2, h3, h4, h5 {
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 .container{
-	width: 1005px;
-	border: 2px double red;
+	width: 85%;
+	/* border: 2px double red; */
 	margin: auto;
 	
 		
@@ -103,52 +103,33 @@ button{
 	justify-content: space-around;
 }
 .thepic{
-	border: 2px dotted red;
+	/* border: 2px dotted red; */
 	/* display:flexbox;
 	justify-content: space-between; */
 	}
 .thepic .middle-img{
-	border: 2px dotted blue;
+	/* border: 2px dotted blue; */
 	display:flex;
 	inline-size: auto;
 }
 /* Border for picture moves correctly, piture does not. */
-.top{
-	
-
-}
-.features{
-  
-  width:45%
-  }
-.about{
-		width:45%
-	
-}
-.middle-img{
-	
-	width: 50em
-
-}
 .bottom{
-	
-	}
-.services{
-	width:25%;
-	}
-.Product{
-	width:25%;
-	}
-.vision{
-	width:25%;
-	}
+	display: flex;
+	justify-content: space-around;
+}
+
 .contact{
-	
+	margin-bottom: 3em;
 }
 .contact address{
-	
+	margin-bottom: 1em;
 }
+.email{
+	margin-top: 1em;
+}
+
 footer{
 	text-align: center;
 
 }
+/* Starting service.html */
