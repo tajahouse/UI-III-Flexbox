@@ -133,3 +133,34 @@ footer{
 
 }
 /* Starting service.html */
+* {
+    box-sizing:border-box;
+    padding:0;
+    margin:0;
+    max-width:100%; /*this is saying you can never be bigger than your parent*/
+    border:1px solid grey;
+}
+.services-header-img{
+	padding-bottom: 1em;
+}
+.introS{
+	display:inline-block;
+	padding-bottom: 1em;
+}
+.box1, .box2{
+	border: 1px solid black;
+	display: flex;
+	justify-content: space-between;
+}
+.box3, .box4{border: 1px solid black;
+	display: flex;
+}
+
+.box5, .box6{border: 1px solid black;
+	display: flex;
+}
+
+.bottom{
+	display:flex;
+	justify-content: space-between;
+}
