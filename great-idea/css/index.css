@@ -74,6 +74,7 @@ hearder{
 	color: darkgray;
 	justify-content: space-between;
 	text-decoration: none;
+	justify-content: space-around;
 	/* flex-direction: column; */
 
 }
