@@ -98,22 +98,21 @@ button{
 	margin:0 0 0 115px
 }
 
-
-
-/* .logo{ 
-} */
-
-
-
-
-h1{
-	
+.top{
+	display:flex;
+	justify-content: space-around;
 }
-
-.pic1{
-	width: 20%;
-	
+.thepic{
+	border: 2px dotted red;
+	/* display:flexbox;
+	justify-content: space-between; */
 	}
+.thepic .middle-img{
+	border: 2px dotted blue;
+	display:flex;
+	inline-size: auto;
+}
+/* Border for picture moves correctly, piture does not. */
 .top{
 	
 
