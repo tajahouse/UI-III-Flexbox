@@ -32,7 +32,10 @@ body {
 	line-height: 1;
 }
 ol, ul {
-	list-style: none;
+	list-style: square;
+}
+li{
+	list-style: square;
 }
 blockquote, q {
 	quotes: none;
@@ -102,11 +105,7 @@ button{
 	display:flex;
 	justify-content: space-around;
 }
-.thepic{
-	/* border: 2px dotted red; */
-	/* display:flexbox;
-	justify-content: space-between; */
-	}
+
 .thepic .middle-img{
 	/* border: 2px dotted blue; */
 	display:flex;
@@ -143,24 +142,87 @@ footer{
 .services-header-img{
 	padding-bottom: 1em;
 }
-.introS{
+/* .introS{
 	display:inline-block;
-	padding-bottom: 1em;
+	
+} */
+
+.topbox{
+	display:flex;
+	justify-content: space-around;
+}
+.midbox{
+	display: flex;
+	justify-content: center;
+}
+.bottombox{
+	display: flex;
+	justify-content: center;
 }
 .box1, .box2{
 	border: 1px solid black;
 	display: flex;
 	justify-content: space-between;
+	margin-left: auto;
+    margin-right: auto;
+	width: 18em;
+	height: 10em;
+	align-items: flex-start;
+	flex-wrap: wrap;
+	font-size: smaller;
 }
-.box3, .box4{border: 1px solid black;
+.box3, .box4{
+	border: 1px solid black;
 	display: flex;
+	justify-content: space-between;
+	margin-left: auto;
+    margin-right: auto;
+	width: 18em;
+	height: 10em;
+	align-items: flex-start;
+	flex-wrap: wrap;
+	font-size: smaller;
 }
 
-.box5, .box6{border: 1px solid black;
+.box5, .box6{
+	border: 1px solid black;
 	display: flex;
+	justify-content: space-between;
+	margin-left: auto;
+    margin-right: auto;
+	width: 18em;
+	height: 10em;
+	align-items: flex-start;
+	flex-wrap: wrap;
+	font-size: smaller;
 }
 
 .bottom{
 	display:flex;
 	justify-content: space-between;
+	padding-bottom: 3em;
+	
+}
+.facts{
+	display: flex;
+	width: 30em;
+	height: 12em;
+	align-items: flex-start;
+	flex-wrap: wrap;
+	font-size: smaller;
+	
+}
+.list{
+	padding-top: 2em;
+
+}
+.lastimg{
+	margin-right: 2em;
+	
+}
+li{
+	margin:10px;
+}
+hr{
+	margin: 1em;
 }
